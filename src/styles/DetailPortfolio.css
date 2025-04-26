@@ -1,0 +1,66 @@
+#detail-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+#detail-portfolio > .wrapper {
+  width: 60%;
+  max-width: 800px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#detail-portfolio > .wrapper > h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#detail-portfolio > .wrapper > img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#detail-portfolio > .wrapper > p.skill,
+#detail-portfolio > .wrapper > p.Link {
+  font-size: 1.2rem;
+  color: #222831;
+  margin-bottom: 10px;
+}
+
+#detail-portfolio > .wrapper > p.Link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#detail-portfolio > .wrapper > p.Link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  #detail-portfolio > .wrapper {
+    width: 90%;
+    padding: 15px;
+  }
+
+  #detail-portfolio > .wrapper > h1 {
+    font-size: 1.8rem;
+  }
+
+  #detail-portfolio > .wrapper > p.skill,
+  #detail-portfolio > .wrapper > p.Link {
+    font-size: 1rem;
+  }
+}
